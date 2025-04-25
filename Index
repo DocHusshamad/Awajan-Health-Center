@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز صحي عوجان الأونروا</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* CSS for styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f0f4f8;
+            direction: rtl;
+            text-align: right;
+        }
+        header {
+            background: #0073b1;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 2rem;
+        }
+        .section {
+            background: #fff;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #0073b1;
+            margin-top: 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 10px 10px 10px 0;
+            background: #0073b1;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #005f8d;
+        }
+        .button i {
+            margin-left: 8px;
+            animation: breathe 2s ease-in-out infinite;
+        }
+        /* Breathing animation for icons */
+        @keyframes breathe {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+        .service-description {
+            font-size: 0.95rem;
+            color: #555;
+            margin: 0 10px 15px 10px;
+            max-width: 600px;
+        }
+        .contact-info {
+            font-size: 1.1rem;
+            margin: 1rem 0;
+        }
+        .contact-info a {
+            color: #0073b1;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .contact-info i {
+            margin-left: 8px;
+        }
+        footer {
+            background: #0073b1;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            .button {
+                display: block;
+                text-align: center;
+            }
+            .service-description {
+                margin: 0 0 15px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>مركز صحي عوجان الأونروا</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Booking Section -->
+        <div class="section">
+            <h2>حجز المواعيد</h2>
+            <p>اختر نوع الموعد المناسب لك:</p>
+            <a href="https://outlook.office365.com/book/AwajanHC@unrwa.org/" class="button">
+                <i class="fa-solid fa-user-doctor"></i> مواعيد زيارات حضورية
+            </a>
+            <p class="service-description">
+                حجز مواعيد للزيارات الحضورية في المركز الصحي لإجراء الفحوصات والاستشارات الطبية مع الأطباء مباشرة.
+            </p>
+            <a href="https://outlook.office.com/book/Bookings1200851@unrwa.org/" class="button">
+                <i class="fa-solid fa-laptop"></i> مواعيد زيارات افتراضية
+            </a>
+            <p class="service-description">
+                حجز مواعيد للاستشارات الطبية عبر الإنترنت مع الأطباء من خلال مكالمات فيديو أو مكالمات صوتية.
+            </p>
+            <a href="https://outlook.office365.com/book/Bookings2066501@unrwa.org
